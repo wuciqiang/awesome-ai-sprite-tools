@@ -2,7 +2,7 @@
 
 A curated list of tools for making animated 2D game sprites: AI generators that draw and animate characters, packers that build sprite sheets, editors for drawing frames by hand, free converters, and free assets you can ship.
 
-> **Disclosure:** this list is maintained by the team behind [SpriteCanvas](https://spritecanvas.com/) and [SpritePacker](https://spritepacker.app/), which appear below and are marked *(ours)*. We list what each tool is best at, including where others beat us. Prices and free allowances were checked on 2026-11-03 (SpriteCanvas on 2026-11-05) on each tool's own site; they change, so check before you buy. Corrections and additions are welcome, see [Contributing](#contributing).
+> **Disclosure:** this list is maintained by the team behind [SpriteCanvas](https://spritecanvas.com/) and [SpritePacker](https://spritepacker.app/), which appear below and are marked *(ours)*. We list what each tool is best at, including where others beat us. Prices and free allowances were checked on 2026-11-03 (SpriteCanvas on 2026-11-05, Spritefy and new additions on 2026-11-15) on each tool's own site; they change, so check before you buy. Corrections and additions are welcome, see [Contributing](#contributing).
 
 ## Contents
 
@@ -28,6 +28,7 @@ Each of these takes a character from a text prompt or an image and gives you ani
 | [SpriteLab](https://spritelab.dev/) | Pixel art | 25 credits plus 5 a day | $7.99 for 400 credits | Yes |
 | [Sprite AI](https://www.sprite-ai.art/) | Pixel art | 15 generations | $8/month for 100 tokens | Yes |
 | [Spriteflow](https://spriteflow.io/) | Pixel, cartoon, anime | Daily free credits | $19.90/month for 200 credits | Yes |
+| [Spritefy](https://spritefy.com/) | Pixel art and 2D | 80 starter credits, no card (static assets; animations on paid plans); outputs public, no commercial use | €19/month for 2,000 credits | MCP server, free accounts too |
 | [Retro Diffusion](https://retrodiffusion.ai/) | Pixel art | $0.50 for new accounts | Pay as you go from $5 | Yes |
 | [God Mode AI](https://www.godmodeai.co/) | Any style, from your image | 3 credits | $29/month, or $32 for 30 credits | Not listed |
 | [Scenario](https://www.scenario.com/) | Many models; sheets are pixel art | 50 credits a day, no commercial use | $15/month for 1,500 credits | Yes |
@@ -40,6 +41,7 @@ Each of these takes a character from a text prompt or an image and gives you ani
 - [SpriteLab](https://spritelab.dev/) - Low-cost pixel art characters and animations; commercial use on every plan.
 - [Sprite AI](https://www.sprite-ai.art/) - Pixel art generator with a built-in pixel editor and an Aseprite plugin.
 - [Spriteflow](https://spriteflow.io/) - Pixel, cartoon and anime characters from 16 to 512 pixels, with JSON or XML atlases for Unity, Godot and Unreal.
+- [Spritefy](https://spritefy.com/) - Pixel art and 2D characters, tiles, 2D effects and 8-direction animations, plus 3D models, sound effects and music loops in the same workspace; exports Godot SpriteFrames, a JSON atlas for Unity and Unreal, and GameMaker strips.
 - [Retro Diffusion](https://retrodiffusion.ai/) - Pay-per-result pixel art images and animations, no subscription.
 - [God Mode AI](https://www.godmodeai.co/) - Animates a character image you already have; exports PNG sheets with JSON and MP4, with Spine listed.
 - [Scenario](https://www.scenario.com/) - General AI art platform for game studios with custom model training; sprite sheets are one feature.
@@ -52,6 +54,7 @@ A longer write-up of each, with how to choose, is in [Best AI sprite sheet gener
 - [Free Texture Packer](https://free-tex-packer.com/) - Free, open source packer for the browser or desktop with many export formats.
 - [Leshy SpriteSheet Tool](https://www.leshylabs.com/apps/sstool/) - Free browser packer that also edits existing atlases; XML, JSON, CSS and ImageMagick maps.
 - [SpritePacker](https://spritepacker.app/) *(ours)* - Free browser packer; trims edges, previews the loop and exports Phaser and PixiJS JSON, Unity XML or CSS without uploading your images.
+- [Spriteframe](https://sprite.jiyiblog.com/) - Free browser packer for packing a PNG sequence or GIF into a sprite sheet with normalized frame canvases, previewing playback, and exporting a transparent PNG sheet with JSON frame coordinates or a Godot 4 SpriteFrames resource locally, no account.
 
 ## Sprite editors
 
@@ -67,6 +70,10 @@ A longer write-up of each, with how to choose, is in [Best AI sprite sheet gener
 - [SpritePacker GIF to sprite sheet](https://spritepacker.app/tools/gif-to-sprite-sheet) *(ours)* - Turns a GIF into a sheet, and [back again](https://spritepacker.app/tools/sprite-sheet-to-gif).
 - [SpriteCanvas video to sprite sheet](https://spritecanvas.com/video-to-sprite-sheet/) *(ours)* - Turns an MP4 or WebM clip into a sprite sheet in the browser, no account.
 - [SpriteCanvas sprite sheet slicer](https://spritecanvas.com/sprite-sheet-slicer/) *(ours)* - Slices a sheet by grid into frames, no account.
+- [PixelArtHive Pixel Art Upscaler](https://pixelarthive.com/pixel-art-upscaler) - Scales pixel art and animated GIFs up (2x to 32x) or down without blur locally in the browser, exporting PNG, animated GIF, PNG frames in a ZIP, or a single-layer .aseprite file, no account.
+- [SpriteAI Sprite Sheet Slicer](https://spriteai.io/sprite-sheet-slicer) - Splits an evenly spaced sheet (with outer margin and frame gap controls) in the browser into a single PNG, a PNG frame ZIP, or an animated GIF, no account.
+- [Spritefy GIF to sprite sheet](https://spritefy.com/free-tools/gif-to-sprite-sheet) - Turns a GIF or short video into a sprite sheet; free account required to download.
+- [Spritefy sprite sheet cutter](https://spritefy.com/free-tools/sprite-sheet-cutter) - Cuts a sheet into frames or a GIF by grid; free account required to download.
 
 ## Free assets
 
